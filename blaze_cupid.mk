@@ -7,10 +7,10 @@
 # Inherit from cupid device
 $(call inherit-product, device/xiaomi/cupid/device.mk)
 
-# Inherit from common tequila configuration
-$(call inherit-product, vendor/tequila/config/common_full_phone.mk)
+# Inherit from common blaze configuration
+$(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 
-PRODUCT_NAME := tequila_cupid
+PRODUCT_NAME := blaze_cupid
 PRODUCT_DEVICE := cupid
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi

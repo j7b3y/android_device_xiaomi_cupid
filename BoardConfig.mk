@@ -4,6 +4,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# DTB
+BOARD_PREBUILT_DTBOIMAGE := device/xiaomi/cupid-kernel/dtbs/dtbo.img
+BOARD_PREBUILT_DTBIMAGE_DIR := device/xiaomi/cupid-kernel/dtbs
+
 # Inherit from xiaomi sm8450-common
 include device/xiaomi/sm8450-common/BoardConfigCommon.mk
 

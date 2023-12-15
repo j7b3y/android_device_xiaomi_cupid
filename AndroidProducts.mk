@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/tequila_cupid.mk
+    $(LOCAL_DIR)/blaze_cupid.mk
 
 COMMON_LUNCH_CHOICES := \
-    tequila_cupid-user \
-    tequila_cupid-userdebug \
-    tequila_cupid-eng
+    blaze_cupid-user \
+    blaze_cupid-userdebug \
+    blaze_cupid-eng
